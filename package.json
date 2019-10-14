@@ -6,7 +6,6 @@
 	"scripts": {
 		"dev": "cross-env NODE_ENV=development node server.js",
 		"build": "next build",
-		"tel": "next telemetry disable",
 		"next": "next",
 		"start": "cross-env NODE_ENV=production node server.js"
 	},
@@ -18,15 +17,6 @@
 		"preact-render-to-string": "5.0.6",
 		"preact-ssr-prepass": "^1.0.0",
 		"react-icons": "^3.7.0"
-	},
-	"_moduleAliases": {
-		"react": "node_modules/preact/compat",
-		"react-dom": "node_modules/preact/compat",
-		"react-ssr-prepass": "node_modules/preact-ssr-prepass"
-	},
-	"devDependencies": {
-		"react": "^16.10.2",
-		"react-dom": "^16.10.2"
 	},
 	"resolutions": {
 		"lodash": "latest"
