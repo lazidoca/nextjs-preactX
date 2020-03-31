@@ -12,7 +12,7 @@
 	"dependencies": {
 		"cross-env": "^6.0.3",
 		"module-alias": "^2.2.2",
-		"next": "^9.1.1",
+		"next": "^9.3.2",
 		"preact": "^10.0.0",
 		"preact-render-to-string": "5.0.6",
 		"preact-ssr-prepass": "^1.0.0",
